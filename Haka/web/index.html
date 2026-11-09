@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warranty Desk</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside>
+    <h1>Warranty Desk</h1>
+    <nav>
+      <button data-view="dashboard">Dashboard</button>
+      <button data-view="warranties">Warranties</button>
+      <button data-view="claims">Claims</button>
+      <button data-view="products">Products</button>
+      <button data-view="customers">Customers</button>
+    </nav>
+    <p id="conn">Connecting…</p>
+  </aside>
+  <main id="app"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
